@@ -140,6 +140,73 @@
     padding-left: var(--len-l)
 }
 
+.bg-trans {
+    background-color: transparent;
+}
+
+.bg-pure-white {
+    background-color: white;
+}
+
+.bg-lll-grey {
+    background-color: var(--col-lll-grey);
+}
+
+.bg-ll-grey {
+    background-color: var(--col-ll-grey);
+}
+
+.bg-l-grey {
+    background-color: var(--col-l-grey);
+}
+
+.bg-m-grey {
+    background-color: var(--col-m-grey);
+}
+
+.bg-d-grey {
+    background-color: var(--col-d-grey);
+}
+
+.bg-dd-grey {
+    background-color: var(--col-dd-grey);
+}
+
+.bg-ddd-grey {
+    background-color: var(--col-ddd-grey);
+}
+
+.txt-lll-grey {
+    background-color: var(--col-lll-grey);
+}
+
+.txt-ll-grey {
+    background-color: var(--col-ll-grey);
+}
+
+.txt-l-grey {
+    background-color: var(--col-l-grey);
+}
+
+.txt-m-grey {
+    background-color: var(--col-m-grey);
+}
+
+.txt-d-grey {
+    background-color: var(--col-d-grey);
+}
+
+.txt-dd-grey {
+    background-color: var(--col-dd-grey);
+}
+
+.txt-ddd-grey {
+    background-color: var(--col-ddd-grey);
+}
+
+.txt-pure-black {
+    background-color: black;
+}
 
 /* CSS RESET  (thx to Josh Comeau)*/
 /*
