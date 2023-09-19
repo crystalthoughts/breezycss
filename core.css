@@ -1,7 +1,3 @@
-html {}
-
-body {}
-
 .fill-pw {
     width: 100%;
 }
@@ -16,6 +12,26 @@ body {}
 
 .fill-vh {
     height: 100dvh;
+}
+
+.shrink-w {
+    width: fit-content;
+}
+
+.shrink-h {
+    height: fit-content;
+}
+
+.box-shadow-s {
+    box-shadow: var(--box-shadow-s);
+}
+
+.box-shadow-m {
+    box-shadow: var(--box-shadow-m);
+}
+
+.box-shadow-l {
+    box-shadow: var(--box-shadow-l);
 }
 
 .pos-abs {
@@ -48,6 +64,81 @@ body {}
     gap: var(--len-l)
 }
 
+.no-select {
+    user-select: none;
+}
+
+.grab-cursor {
+    cursor: grab;
+}
+
+.grabbing-cursor {
+    cursor: grabbing
+}
+
+.pointer-cursor {
+    cursor: pointer;
+}
+
+.pad-s {
+    padding: var(--len-s)
+}
+
+.pad-m {
+    padding: var(--len-m)
+}
+
+.pad-l {
+    padding: var(--len-l)
+}
+
+.pad-top-s {
+    padding-top: var(--len-s)
+}
+
+.pad-right-s {
+    padding-right: var(--len-s)
+}
+
+.pad-bottom-s {
+    padding-bottom: var(--len-s)
+}
+
+.pad-left-s {
+    padding-left: var(--len-s)
+}
+
+.pad-top-m {
+    padding-top: var(--len-m)
+}
+
+.pad-right-m {
+    padding-right: var(--len-m)
+}
+
+.pad-bottom-m {
+    padding-bottom: var(--len-m)
+}
+
+.pad-left-m {
+    padding-left: var(--len-m)
+}
+
+.pad-top-l {
+    padding-top: var(--len-l)
+}
+
+.pad-right-l {
+    padding-right: var(--len-l)
+}
+
+.pad-bottom-l {
+    padding-bottom: var(--len-l)
+}
+
+.pad-left-l {
+    padding-left: var(--len-l)
+}
 
 
 /* CSS RESET  (thx to Josh Comeau)*/
