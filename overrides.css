@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/paramate-demos-autumn23/common/fonts/exljbris-MuseoSans-300.ttf");
+}
+
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/paramate-demos-autumn23/common/fonts/exljbris-MuseoSans-500.ttf");
+}
+
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/paramate-demos-autumn23/common/fonts/exljbris-MuseoSans-700.ttf");
+}
+
+
+html {
+    /* Global font scale */
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Museo";
+}
+
+:root {
+    /* Spacings */
+    --len-s: .5rem;
+    --len-m: 1rem;
+    --len-l: 2rem;
+    --radius-s: 5px;
+
+    /* Typefaces */
+    --font-main: "Museo";
+    --font-title: "Museo";
+    --font-accent: "sans-serif";
+
+    --font-size-s: 0.75rem;
+    --font-size-m: 0.9rem;
+    --font-size-reg: 0.9rem;
+    --font-size-l: 1.1rem;
+
+    /* Colors */
+    --accent-col: hsl(192, 55%, 45%);
+
+    --col-lll-grey: hsl(-100, 0%, 100%);
+    --col-ll-grey: hsl(-100, 0%, 83.33333333333334%);
+    --col-l-grey: hsl(-100, 0%, 66.66666666666667%);
+    --col-m-grey: hsl(-100, 0%, 50%);
+    --col-d-grey: hsl(-100, 0%, 33.33333333333334%);
+    --col-dd-grey: hsl(-100, 0%, 16.66666666666667%);
+    --col-ddd-grey: hsl(-100, 0%, 0%);
+
+    --col-lll-red: hsl(0, 60%, 100%);
+    --col-ll-red: hsl(0, 60%, 83.33333333333334%);
+    --col-l-red: hsl(0, 60%, 66.66666666666667%);
+    --col-m-red: hsl(0, 60%, 50%);
+    --col-d-red: hsl(0, 60%, 33.33333333333334%);
+    --col-dd-red: hsl(0, 60%, 16.66666666666667%);
+    --col-ddd-red: hsl(0, 60%, 0%);
+    --col-lll-orange: hsl(53.333333333333336, 60%, 100%);
+    --col-ll-orange: hsl(53.333333333333336, 60%, 83.33333333333334%);
+    --col-l-orange: hsl(53.333333333333336, 60%, 66.66666666666667%);
+    --col-m-orange: hsl(53.333333333333336, 60%, 50%);
+    --col-d-orange: hsl(53.333333333333336, 60%, 33.33333333333334%);
+    --col-dd-orange: hsl(53.333333333333336, 60%, 16.66666666666667%);
+    --col-ddd-orange: hsl(53.333333333333336, 60%, 0%);
+    --col-lll-yellow: hsl(106.66666666666667, 60%, 100%);
+    --col-ll-yellow: hsl(106.66666666666667, 60%, 83.33333333333334%);
+    --col-l-yellow: hsl(106.66666666666667, 60%, 66.66666666666667%);
+    --col-m-yellow: hsl(106.66666666666667, 60%, 50%);
+    --col-d-yellow: hsl(106.66666666666667, 60%, 33.33333333333334%);
+    --col-dd-yellow: hsl(106.66666666666667, 60%, 16.66666666666667%);
+    --col-ddd-yellow: hsl(106.66666666666667, 60%, 0%);
+    --col-lll-green: hsl(160, 60%, 100%);
+    --col-ll-green: hsl(160, 60%, 83.33333333333334%);
+    --col-l-green: hsl(160, 60%, 66.66666666666667%);
+    --col-m-green: hsl(160, 60%, 50%);
+    --col-d-green: hsl(160, 60%, 33.33333333333334%);
+    --col-dd-green: hsl(160, 60%, 16.66666666666667%);
+    --col-ddd-green: hsl(160, 60%, 0%);
+    --col-lll-blue: hsl(213.33333333333334, 60%, 100%);
+    --col-ll-blue: hsl(213.33333333333334, 60%, 83.33333333333334%);
+    --col-l-blue: hsl(213.33333333333334, 60%, 66.66666666666667%);
+    --col-m-blue: hsl(213.33333333333334, 60%, 50%);
+    --col-d-blue: hsl(213.33333333333334, 60%, 33.33333333333334%);
+    --col-dd-blue: hsl(213.33333333333334, 60%, 16.66666666666667%);
+    --col-ddd-blue: hsl(213.33333333333334, 60%, 0%);
+    --col-lll-indigo: hsl(266.6666666666667, 60%, 100%);
+    --col-ll-indigo: hsl(266.6666666666667, 60%, 83.33333333333334%);
+    --col-l-indigo: hsl(266.6666666666667, 60%, 66.66666666666667%);
+    --col-m-indigo: hsl(266.6666666666667, 60%, 50%);
+    --col-d-indigo: hsl(266.6666666666667, 60%, 33.33333333333334%);
+    --col-dd-indigo: hsl(266.6666666666667, 60%, 16.66666666666667%);
+    --col-ddd-indigo: hsl(266.6666666666667, 60%, 0%);
+    --col-lll-violet: hsl(320, 60%, 100%);
+    --col-ll-violet: hsl(320, 60%, 83.33333333333334%);
+    --col-l-violet: hsl(320, 60%, 66.66666666666667%);
+    --col-m-violet: hsl(320, 60%, 50%);
+    --col-d-violet: hsl(320, 60%, 33.33333333333334%);
+    --col-dd-violet: hsl(320, 60%, 16.66666666666667%);
+    --col-ddd-violet: hsl(320, 60%, 0%);
+
+    --shadow-color: 218deg 19% 62%;
+    /* x , y, blur, spread */
+    --box-shadow-s:
+        0px 0px 2px hsl(var(--shadow-color) / 0.05),
+        0px 0px 2px -1px hsl(var(--shadow-color) / 0.5),
+        0px 0px 2.4px -2.4px hsl(var(--shadow-color) / 0.29);
+    --box-shadow-m:
+        0px 0px 0.6px hsl(var(--shadow-color) / 0.05),
+        0px 0px 2.1px -5px hsl(var(--shadow-color) / 0.05),
+        0px 0px 3.1px -1px hsl(var(--shadow-color) / 0.9),
+        0px 0px 8.4px -1px hsl(var(--shadow-color) / 0.05);
+    --box-shadow-l:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.28),
+        1.3px 2.6px 3.3px -0.4px hsl(var(--shadow-color) / 0.28),
+        2.4px 4.8px 6.1px -0.7px hsl(var(--shadow-color) / 0.28),
+        3.9px 7.7px 9.8px -1px hsl(var(--shadow-color) / 0.28),
+        6.1px 12.3px 15.5px -1.4px hsl(var(--shadow-color) / 0.28),
+        9.5px 19.1px 24.2px -1.8px hsl(var(--shadow-color) / 0.28),
+        14.5px 28.9px 36.6px -2.1px hsl(var(--shadow-color) / 0.29),
+        21.3px 42.5px 53.8px -2.4px hsl(var(--shadow-color) / 0.29);
+
+    --slider-thumb-height: 1rem;
+    --slider-thumb-width: .5rem;
+    --slider-track-height: .75rem;
+    --slider-track-shadow: var(--box-shadow-s);
+    --slider-thumb-bg-color: black;
+    --slider-thumb-outline-color: transparent;
+    --slider-thumb-shadow: var(--box-shadow-s);
+    --slider-track-bg-color: transparent;
+    --slider-track-outline-color: #dedede4d;
+
+    --slider-track-shadow-color: #DEDEDE;
+
+
+
+}
+
+.disabled {
+    opacity: 25%;
+    pointer-events: none;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: var(--slider-track-height);
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: var(--slider-track-shadow);
+    background: var(--slider-track-bg-color);
+    border-radius: 2px;
+    border: 1px solid var(--slider-track-outline-color);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    border: 1px solid var(--slider-thumb-outline-color);
+    height: var(--slider-thumb-height);
+    width: var(--slider-thumb-width);
+    border-radius: 3px;
+    background: var(--slider-thumb-bg-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -1.5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: var(--slider-track-bg-color);
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: var(--slider-track-height);
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: var(--slider-track-shadow);
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #E3E3E3;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 12px;
+    border-radius: 3px;
+    background: #000000;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: var(--slider-track-height);
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: var(--slider-track-shadow);
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: var(--slider-track-shadow);
+}
+
+input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 12px;
+    border-radius: 3px;
+    background: #000000;
+    cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #FFFFFF;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #FFFFFF;
+}
