@@ -11,7 +11,7 @@ html {
     --len-m: 1rem;
     --len-l: 2rem;
     --radius-s: 5px;
-
+    --pad-site-frame: 2rem;
     /* Typefaces */
     --font-main: "Museo";
     --font-title: "Museo";
@@ -24,7 +24,7 @@ html {
 
     /* Colors */
     --accent-col: hsl(192, 55%, 45%);
-
+    --col-main-bg: hsl(190, 22%, 89%);
     --col-lll-grey: hsl(-100, 0%, 100%);
     --col-ll-grey: hsl(-100, 0%, 83.33333333333334%);
     --col-l-grey: hsl(-100, 0%, 66.66666666666667%);
